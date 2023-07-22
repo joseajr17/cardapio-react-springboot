@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 @Entity(name= "foods")
 @Table(name= "foods")
 public class Food {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
